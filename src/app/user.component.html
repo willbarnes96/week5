@@ -1,0 +1,21 @@
+<div class ="container">
+    <div class = "card">
+        <h3 class="text-center"> Employees List</h3>
+        <div class = "card-body">
+            <table class="table table-striped">
+                <thead>
+                    <th>Id</th>
+                    <th> First Name</th>
+                    <th> Salary</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let employee of employees">
+                        <td> {{employee.employeeId}}</td>
+                        <td> {{employee.employeeName}}</td>
+                        <td> {{employee.employeeSalary}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
