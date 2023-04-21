@@ -1,0 +1,2 @@
+DELETE REQUEST:
+http://localhost:8080/api/items?id=3
